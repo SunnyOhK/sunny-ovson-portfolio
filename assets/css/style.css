@@ -8,10 +8,15 @@
 
 }
 
-.header {
+.body {
+    background-color: #EFEDD7;
+}
+
+.body-header {
     display: flex;
     justify-content: space-between;
     background: var(--blue-grey);
+    border: #183642 solid 10px;
     color: var(--nyanza);
     padding: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -47,4 +52,25 @@
 
 .li {
 
+}
+
+.main {
+    display: block;
+    flex-direction: column;
+    max-width: 96%;
+    margin: 70px 30px 30px 30px;
+}
+
+.card {
+  flex: 1 0 0;
+  padding: 10px;
+  border-style: dashed;
+  border-width: 1px;
+  margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #183642;
+    position: relative;
+    color: azure;
 }
