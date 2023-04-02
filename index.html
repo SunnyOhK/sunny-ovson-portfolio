@@ -14,43 +14,49 @@
         <h1 class="h1">Sunny Ovson</h1>
         <nav class="nav">
             <ul class="ul">
-                <li>About Me</li>
-                <li>My Work</li>
-                <li>Contact</li>
+                <li class="li">
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#my-work">My Work</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact</a>
+                </li>
             </ul>
         </nav>
     </header>
 
     <main class="main">
-        <!--Main Content Container-->
-        <section class="card">
+        <div>
+            <img src="assets/Mitz.JPEG" class="float-left">
             <!--About Me Card Containter | F&A photo-->
-            <header class="card-header">About Me</header>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna
-                aliqua. Elit ut aliquam purus sit amet. Bibendum enim facilisis gravida neque. Vel turpis nunc eget
-                lorem dolor sed
-                viverra ipsum.</p>
-        </section>
+            <article id="about-me" class="card">
+                
+                <h2 class="card-header">About Me</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit ut aliquam purus sit amet.  Bibendum enim facilisis gravida neque.</p>
+            </article>
 
-        <section class="card">
             <!--My Work Card Containter | 'coming soon' photo-->
-            <header class="card-header">My Work</header>
-            <p>Nibh ipsum consequat nisl vel pretium. Phasellus faucibus scelerisque eleifend donec pretium vulputate.
-                Varius quam
-                quisque id diam vel. Vel quam elementum pulvinar etiam non quam. Congue mauris rhoncus aenean vel elit.
-            </p>
-        </section>
-
-        <section class="card">
-            <!--Contact Card Containter | photo of self-->
-            <header class="card-header">Contact</header>
-            <p>Non odio euismod lacinia at quis risus sed. Mi in nulla posuere sollicitudin aliquam ultrices. Eget
-                mauris pharetra et
-                ultrices neque ornare aenean euismod elementum.</p>
-        </section>
+            <article id="my-work" class="card">
+                <h2 class="card-header">My Work</h2>
+                <p>Nibh ipsum consequat nisl vel pretium. Phasellus faucibus scelerisque eleifend donec pretium
+                    vulputate.
+                    Varius quam quisque id diam vel. Vel quam elementum pulvinar etiam non quam. Congue mauris rhoncus
+                    aenean vel elit.
+                </p>
+            </article>
+        </div>
     </main>
 
+    <footer>
+        <!--Contact Card Containter | photo of self-->
+        <header>Contact Me</header>
+        <article id="contact-me" class="footer">
+            <header class="card-header">Contact</header>
+        </article>
+        <p>&#169 2023</p>
+    </footer>
 </body>
 
 </html>
