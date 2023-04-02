@@ -38,6 +38,8 @@
     right: 10px;
     border: 2px dashed #d0e3cc;
     padding: 10px 50px 10px 10px;
+    color: azure;
+    text-decoration: none;
 }
 
 .ul {
@@ -48,10 +50,23 @@
     min-width: 400px;
     position: relative;
     margin: auto;
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: bold;
+    }
 }
 
 .li {
-
+    display: list-item;
+    color: azure;
 }
 
 .main {
@@ -62,15 +77,45 @@
 }
 
 .card {
-  flex: 1 0 0;
-  padding: 10px;
-  border-style: dashed;
-  border-width: 1px;
-  margin-bottom: 20px;
+    flex: 1 0 0;
+    padding: 10px;
+    border-style: dashed;
+    border-width: 2px;
+    margin-bottom: 20px;
+    height: 117px;
+}
+
+#about-me {
+    margin-left: 180px;
+}
+
+#my-work {
+    margin-right: 200px;
 }
 
 .card-header {
     background-color: #183642;
+    font-size: 20px;
     position: relative;
     color: azure;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+    height: 140px;
+}
+
+.footer {}
+
+@media screen and (max-width: 768px) {
+
+    header,
+    main {
+        flex-direction: column;
+    }
+
+    section {
+        padding-right: 0;
+    }
 }

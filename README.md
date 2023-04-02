@@ -3,7 +3,7 @@ Coding portfolio outlining skills I've mastered in 2023 UT EdX Coding Bootcamp.
 
 ## Description
 
-The objective for this project ~was to refactor existing HTML code using semantic elements and restructuring the corresponding CSS stylesheet. This allows for the website to have meaning beyond its basic structural layout and provides for a more accessible user experience. This also enhances the browser's ability to read the contents of the webpage and, thus, allows them to better deliver based on user queries.~ 
+The objective for this project is to begin creating the foundation for my professional developer portfolio. This first project will set up the framework using advanced CSS techniques to create a fully-responsive environment complete with in-page navigation links, visual readjustments depending on the viewer's screen size, and a structural layout to introduce myself and my work.
 
 Key reasons for making a website accessible:
 - Reason 1.
@@ -24,6 +24,7 @@ TBD
 ## Acknowledgements
 
 - [README Assistant](https://readme.so/)
+- Sun Icon: <a href="https://www.flaticon.com/free-icons/sun" title="sun icons">Sun icons created by Freepik - Flaticon</a>
 
 
 ## 🚀 About Me
