@@ -25,6 +25,7 @@ TBD
 
 - [README Assistant](https://readme.so/)
 - Sun Icon: <a href="https://www.flaticon.com/free-icons/sun" title="sun icons">Sun icons created by Freepik - Flaticon</a>
+- LinkedIn Icon: <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a>
 
 
 ## 🚀 About Me
