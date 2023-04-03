@@ -106,7 +106,37 @@
     height: 140px;
 }
 
-.footer {}
+hr {
+    border-top: 16px dotted #40434a;
+    width: 402px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #78586f;
+}
+
+h3 {
+    color: #d0e3cc;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-decoration: ;
+}
+
+.icon-linkedin {
+    height: 50px;
+}
+
+.icon-github {
+    height: 50px;
+}
+
+.ul-icon {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
 
 @media screen and (max-width: 768px) {
 
