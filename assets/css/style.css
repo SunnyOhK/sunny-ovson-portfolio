@@ -5,7 +5,8 @@
     --blue-grey: #183642;
     --olive: #7a7552;
     --sunflower: #d58936;
-
+    --black: #111;
+    --white: #fff;
 }
 
 .body {
@@ -17,7 +18,7 @@
     justify-content: space-between;
     background: var(--blue-grey);
     border: #183642 solid 10px;
-    color: var(--nyanza);
+    color: azure;
     padding: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -38,17 +39,27 @@
     right: 10px;
     border: 2px dashed #d0e3cc;
     padding: 10px 50px 10px 10px;
-    color: azure;
-    text-decoration: none;
+    color: azure !important;
+    text-decoration: underline #78586f;
 }
 
-nav:hover {
-
+a:link {
+color: #EFEDD7;
+text-decoration: none;
 }
 
 a:hover {
-    color: #d58936;
+    color: #d58936 !important;
     font-weight: bolder;
+    font-size: 110%;
+}
+
+a:active {
+    color: #d58936;
+}
+
+a:visited {
+    color: azure;
 }
 
 .ul {
@@ -59,23 +70,10 @@ a:hover {
     min-width: 400px;
     position: relative;
     margin: auto;
-
-    a:link {
-        text-decoration: none;
-    }
-
-    a:visited {
-        text-decoration: none;
-    }
-
-    a:hover {
-        text-decoration: bold;
-    }
 }
 
 .li {
     display: list-item;
-    color: azure;
 }
 
 .main {
@@ -91,7 +89,7 @@ a:hover {
     border-style: dashed;
     border-width: 2px;
     margin-bottom: 20px;
-    height: 117px;
+    height: auto;
 }
 
 #about-me {
@@ -104,9 +102,11 @@ a:hover {
 
 .card-header {
     background-color: #183642;
-    font-size: 20px;
-    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
     color: azure;
+    position: relative;
 }
 
 .float-left {
@@ -123,7 +123,7 @@ hr {
 .footer {
     text-align: center;
     background-color: #78586f;
-}
+ }
 
 .ul-icon {
     display: flex;
@@ -132,22 +132,46 @@ hr {
 }
 
 h3 {
-    color: #d0e3cc;
-    font-size: 30px;
+    color: white;
+    font-size: 250%;
     padding-top: 20px;
-    padding-bottom: 10px;
-    text-decoration: ;
+    padding-bottom: 18px;
+    background-color: black;
 }
 
 .icon {
     height: 50px;
     padding-left: 0px;
     padding-right: 20px;
+    animation-duration: .9s;
+    animation-iteration-count: 6;
+    transform-origin: bottom;
+}
+
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease-out;
 }
 
 h4 {
     font-size: 120%;
+    padding-top: 16px;
 }
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-11px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
 
 @media screen and (max-width: 768px) {
 
