@@ -9,15 +9,19 @@
     --white: #fff;
 }
 
-.body {
+a {
+    text-decoration: none;
+}
+
+body {
     background-color: #EFEDD7;
 }
 
 .body-header {
     display: flex;
     justify-content: space-between;
-    background-image: url("../blue-background.png");
-    border: #183642 solid 1px;
+    background: #011821;
+    border-bottom: #183642 solid 1px;
     color: azure;
     padding: 30px;
     margin-top: -9px;
@@ -25,26 +29,25 @@
     margin-right: -9px;
     width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-} 
+}
 
-.h1 {
+h1 {
     position: relative;
     top: 43px;
     left: 4px;
     font-size: 55px;
 }
 
-.nav {
+nav {
     display: flex;
-    font-size: 25px;
+    font-size: 29px;
     background-color: #78586f;
     position: relative;
-    top: 78px;
-    right: 10px;
+    top: 69px;
+    right: 50px;
     border: 2px dashed #d0e3cc;
     padding: 10px 50px 10px 10px;
     color: azure !important;
-    text-decoration: underline #78586f;
 }
 
 nav a:link {
@@ -86,6 +89,51 @@ main {
     max-width: 96%;
     margin: 70px 30px 30px 30px;
 }
+
+.container {
+    display: flex;
+    gap: 5px 5px;
+}
+
+/*children of .container*/
+
+h2 {
+    width: 30%;
+    padding-left: 20px;
+    font-size: 40px;
+    color: #40434a;
+}
+
+section {
+    display: flex;
+    margin-left: 1px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.about-pic {
+    max-width: 100%;
+    padding-left: 20px;
+}
+
+p {
+    font-size: 22px;
+    text-align: left;
+    margin-inline-start: -5em;
+}
+
+
+
+.about-text {
+    max-width: 60%;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+
 
 /*
 card {
@@ -153,12 +201,6 @@ card {
     margin-left: 200px;
 }
 
-aside {
-    width: 30%;
-    padding-right: 10px;
-    float: left;
-}
-
 .port-header {
     font-size: 50px;
     text-align: left;
@@ -167,9 +209,6 @@ aside {
     padding-left: 30px;
 }
 
-#pull-left {
-    padding-left: -400px;
-}
 
 #my-work-images {
     align-items: center;
@@ -201,7 +240,7 @@ hr {
     margin-top: 40px;
 }
 
-.footer {
+footer {
     text-align: center;
     background-color: #78586f;
     padding-bottom: 20px;
