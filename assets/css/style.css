@@ -9,60 +9,67 @@
     --white: #fff;
 }
 
-.body {
+a {
+    text-decoration: none;
+}
+
+body {
     background-color: #EFEDD7;
 }
 
 .body-header {
     display: flex;
     justify-content: space-between;
-    background: var(--blue-grey);
-    border: #183642 solid 10px;
+    background: #011821;
+    border-bottom: #183642 solid 1px;
     color: azure;
-    padding: 40px;
+    padding: 30px;
+    margin-top: -9px;
+    margin-left: -9px;
+    margin-right: -9px;
+    width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.h1 {
+h1 {
     position: relative;
     top: 43px;
     left: 4px;
-    font-size: 45px;
+    font-size: 55px;
 }
 
-.nav {
+nav {
     display: flex;
-    font-size: 25px;
+    font-size: 29px;
     background-color: #78586f;
     position: relative;
-    top: 70px;
-    right: 10px;
+    top: 69px;
+    right: 50px;
     border: 2px dashed #d0e3cc;
     padding: 10px 50px 10px 10px;
     color: azure !important;
-    text-decoration: underline #78586f;
 }
 
-a:link {
+nav a:link {
     color: #EFEDD7;
     text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
     color: #d58936 !important;
     font-weight: bolder;
     font-size: 110%;
 }
 
-a:active {
+nav a:active {
     color: #d58936;
 }
 
-a:visited {
+nav a:visited {
     color: azure;
 }
 
-.ul {
+nav ul {
     display: flex;
     list-style-type: none;
     justify-content: space-between;
@@ -72,18 +79,64 @@ a:visited {
     margin: auto;
 }
 
-.li {
+nav li {
     display: list-item;
 }
 
-.main {
+main {
     display: block;
     flex-direction: column;
     max-width: 96%;
     margin: 70px 30px 30px 30px;
 }
 
-.card {
+.container {
+    display: flex;
+    gap: 5px 5px;
+}
+
+/*children of .container*/
+
+h2 {
+    width: 30%;
+    padding-left: 20px;
+    font-size: 40px;
+    color: #40434a;
+}
+
+section {
+    display: flex;
+    margin-left: 1px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.about-pic {
+    max-width: 100%;
+    padding-left: 20px;
+}
+
+p {
+    font-size: 22px;
+    text-align: left;
+    margin-inline-start: -5em;
+}
+
+
+
+.about-text {
+    max-width: 60%;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+
+/*
+card {
     flex: 1 0 0;
     padding: 10px;
     border-style: dashed;
@@ -91,6 +144,7 @@ a:visited {
     margin-bottom: 20px;
     height: auto;
 }
+*/
 
 #about-me {
     margin-left: 180px;
@@ -115,29 +169,49 @@ a:visited {
     height: 140px;
 }
 
-div.container {
+#work {
     display: flex;
-    max-width: 100%;
-    min-width: 400px;
     position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 25px 0;
+    padding: 10px 0;
 }
 
-aside {
-    width: 30%;
-    padding-right: 10px;
-    float: left;
+#work div {
+    flex: 0 0 77%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item {
+    display: flex;
+    min-height: 150px;
+    max-height: 150px;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    flex-basis: 250px;
+    margin: 2em;
+    margin-left: 200px;
 }
 
 .port-header {
-    font-size: 60px;
+    font-size: 50px;
     text-align: left;
     color: #40434a;
     padding-top: 160px;
     padding-left: 30px;
 }
 
-#pull-left {
-    padding-left: -400px;
+
+#my-work-images {
+    align-items: center;
 }
 
 .img-portfolio {
@@ -148,8 +222,12 @@ aside {
     box-shadow: 1px 5px 5px 1px #40434a;
 }
 
+#coming-soon {
+    height: 450px;
+}
+
 .p2 {
-    max-width: 200px;
+    max-width: 300px;
     text-align: center;
     font-size: 22px;
 
@@ -162,9 +240,10 @@ hr {
     margin-top: 40px;
 }
 
-.footer {
+footer {
     text-align: center;
     background-color: #78586f;
+    padding-bottom: 20px;
 }
 
 .ul-icon {
@@ -198,6 +277,8 @@ h3 {
 h4 {
     font-size: 135%;
     padding-top: 16px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 @keyframes bounce {
