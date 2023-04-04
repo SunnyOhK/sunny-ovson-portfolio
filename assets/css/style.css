@@ -93,14 +93,16 @@ main {
 .container {
     display: flex;
     gap: 5px 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 /*children of .container*/
 
 h2 {
     width: 30%;
-    padding-left: 20px;
-    font-size: 40px;
+    padding-left: 30px;
+    font-size: 44px;
     color: #40434a;
 }
 
@@ -114,7 +116,12 @@ section {
 
 .about-pic {
     max-width: 100%;
-    padding-left: 20px;
+    }
+
+#img-portfolio {
+    border-style: none;
+    border-radius: 15%;
+    box-shadow: 0 0 5px 5px #011821;
 }
 
 p {
@@ -122,8 +129,6 @@ p {
     text-align: left;
     margin-inline-start: -5em;
 }
-
-
 
 .about-text {
     max-width: 60%;
@@ -134,6 +139,12 @@ img {
     height: auto;
 }
 
+hr {
+    border-top: 16px dotted #40434a;
+    width: 402px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
 
 /*
 card {
@@ -233,36 +244,30 @@ card {
 
 }
 
-hr {
-    border-top: 16px dotted #40434a;
-    width: 402px;
-    margin-bottom: 40px;
-    margin-top: 40px;
-}
-
 footer {
     text-align: center;
     background-color: #78586f;
     padding-bottom: 20px;
 }
 
-.ul-icon {
-    display: flex;
+.connect {
+    display: inline block;
     list-style-type: none;
     justify-content: center;
 }
 
 h3 {
     color: white;
-    font-size: 250%;
+    font-size: 300%;
     padding-top: 20px;
     padding-bottom: 18px;
+    padding-right: 25px;
     background-color: black;
 }
 
 .icon {
     height: 60px;
-    padding-left: 0px;
+    padding-left: 10px;
     padding-right: 20px;
     animation-duration: .9s;
     animation-iteration-count: 6;
