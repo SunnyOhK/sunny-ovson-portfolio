@@ -213,6 +213,8 @@ card {
     flex-direction: column;
     align-content: center;
     align-items: center;
+    /* max-width: 1200px; */
+    margin-right: 360px;
 }
 
 #work {
@@ -259,12 +261,37 @@ card {
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 80%;
 }
 
 #lg-project {
-    height: 400px;
-    width: 600px;
+    height: 500px;
+    width: auto;
+}
+
+.bottom-large {
+    position: absolute;
+    bottom: 40px;
+    left: 2px;
+    background-color: #EFEDD7;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-top: 14px solid #78586f;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 40px;
+    left: 13px;
+    background-color: #EFEDD7;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-top: 14px solid #78586f;
 }
 
 /*
@@ -277,12 +304,12 @@ card {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 80%;
 }
 
 #sm-project {
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 450px;
+    margin: 12px;
 }
 
 .shadow {
