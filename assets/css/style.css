@@ -48,6 +48,7 @@ nav {
     border: 2px dashed #d0e3cc;
     padding: 10px 50px 10px 10px;
     color: azure !important;
+    z-index: 9;
 }
 
 nav a:link {
@@ -77,17 +78,30 @@ nav ul {
     min-width: 400px;
     position: relative;
     margin: auto;
-}
+    }
 
 nav li {
     display: list-item;
 }
 
+.hero-container {
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    background-position: center;
+    position: relative;
+    height: 300px;
+        background-repeat: no-repeat;
+            background-size: cover;
+}
+
 main {
     display: block;
     flex-direction: column;
-    max-width: 96%;
-    margin: 70px 30px 30px 30px;
+    max-width: 100%;
+    padding-top: 100px;
 }
 
 .container {
@@ -100,15 +114,26 @@ main {
 /*children of .container*/
 
 h2 {
-    width: 30%;
+    width: 450px;
     padding-left: 30px;
+    padding-top: 50px;
     font-size: 44px;
     color: #40434a;
+
 }
+
+/*.vl {
+    border-right: 5px double #011821;
+    height: 170px;
+    position: absolute;
+    left: 10px;
+    margin-top: 70px;
+    margin-left: 300px;
+}*/
 
 section {
     display: flex;
-    margin-left: 1px;
+    margin-left: 60px;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
@@ -116,7 +141,7 @@ section {
 
 .about-pic {
     max-width: 100%;
-    }
+}
 
 #img-portfolio {
     border-style: none;
@@ -125,9 +150,9 @@ section {
 }
 
 p {
-    font-size: 22px;
+    font-size: 30px;
     text-align: left;
-    margin-inline-start: -5em;
+    margin-inline-start: -4em;
 }
 
 .about-text {
@@ -143,7 +168,7 @@ hr {
     border-top: 16px dotted #40434a;
     width: 402px;
     margin-bottom: 80px;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 /*
@@ -157,13 +182,11 @@ card {
 }
 */
 
-#about-me {
-    margin-left: 180px;
-}
+#about-me {}
 
-#my-work {
-    margin-right: 200px;
-}
+#my-work {}
+
+#contact-me {}
 
 .card-header {
     background-color: #183642;
