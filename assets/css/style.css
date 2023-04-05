@@ -7,6 +7,7 @@
     --sunflower: #d58936;
     --black: #111;
     --white: #fff;
+    --cream: #EFEDD7;
 }
 
 a {
@@ -120,15 +121,6 @@ h2 {
     color: #40434a;
 }
 
-/*.vl {
-    border-right: 5px double #011821;
-    height: 170px;
-    position: absolute;
-    left: 10px;
-    margin-top: 70px;
-    margin-left: 300px;
-}*/
-
 section {
     display: flex;
     margin-left: 60px;
@@ -154,10 +146,6 @@ p {
     padding-right: 4em;
 }
 
-.about-text {
-    max-width: 60%;
-}
-
 img {
     max-width: 50%;
     height: auto;
@@ -171,6 +159,18 @@ hr {
 }
 
 /*
+.vl {
+    border-right: 5px double #011821;
+    height: 170px;
+    position: absolute;
+    left: 10px;
+    margin-top: 70px;
+    margin-left: 300px;
+
+.about-text {
+    max-width: 60%;
+}
+
 card {
     flex: 1 0 0;
     padding: 10px;
@@ -179,14 +179,6 @@ card {
     margin-bottom: 20px;
     height: auto;
 }
-*/
-
-#about-me {}
-
-#my-work {}
-
-#contact-me {}
-
 .card-header {
     background-color: #183642;
     padding-top: 10px;
@@ -196,11 +188,13 @@ card {
     position: relative;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-    height: 140px;
-}
+*/
+
+#about-me {}
+
+#my-work {}
+
+#contact-me {}
 
 #work {
     display: flex;
@@ -234,6 +228,52 @@ card {
     margin-left: 200px;
 }
 
+.img-portfolio {
+    max-width: 100%;
+    border: solid 2px black;
+    box-shadow: 1px 5px 5px 1px #40434a;
+}
+
+.lg-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+#lg-project {
+    height: 400px;
+    width: 600px;
+}
+
+/*
+.break {
+    width: 100%;
+}
+*/
+
+.sm-container {
+        display: inline block;
+            list-style-type: none;
+            justify-content: center;
+}
+
+#sm-project {
+    height: 200px;
+    width: 300px;
+}
+
+.shadow {
+    display: inline-block;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+/*
 .port-header {
     font-size: 50px;
     text-align: left;
@@ -242,28 +282,15 @@ card {
     padding-left: 30px;
 }
 
-
 #my-work-images {
     align-items: center;
-}
-
-.img-portfolio {
-    max-width: 100%;
-    height: 500px;
-    width: auto;
-    border: solid 2px black;
-    box-shadow: 1px 5px 5px 1px #40434a;
-}
-
-#coming-soon {
-    height: 450px;
 }
 
 .p2 {
     max-width: 300px;
     text-align: center;
     font-size: 22px;
-}
+}*/
 
 footer {
     text-align: center;
