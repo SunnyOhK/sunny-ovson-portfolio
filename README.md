@@ -23,6 +23,19 @@ Key reasons for making a website:
 - Page responsiveness and mobile-first classifications are not one in the same. When I test my portfolio page in a browser by manually adjusting the screen size, it does not react in the same manner as opening the webpage on an actual mobile device.
 - CSS animations: although its primary purpose is for aesthetic website enhancements, CSS offers a variety of properties that allow you to create animated effects (ex. an icon bouncing when the cursor hovers over it).
 
+## Mock-Up
+
+The following screenshot shows the deployed web application from a desktop browser:
+
+![Full desktop view of web application.](./assets/Portfolio-Screenshot.png)
+
+## Deployment
+
+https://sunnyohk.github.io/sunny-ovson-portfolio/
+
+## Known Bugs
+
+- Mobile responsiveness experiencing issues on smaller screen sizes
 
 ## Acknowledgements
 
