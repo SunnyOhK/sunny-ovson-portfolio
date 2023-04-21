@@ -443,7 +443,6 @@ h4 {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     font-size: 50%;
-
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
