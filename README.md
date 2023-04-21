@@ -1,5 +1,10 @@
 # sunny-ovson-portfolio
 
+## Usage & Deployment
+
+https://sunnyohk.github.io/sunny-ovson-portfolio/
+
+
 ## Description
 
 The objective for this project is to begin creating the foundation for my professional web developer portfolio. This first project will set up the framework using HTML and advanced CSS techniques to create a fully-responsive environment complete with in-page navigation links, visual readjustments depending on the viewer's screen size, and a structural layout to introduce myself and my work.
@@ -29,9 +34,7 @@ The following screenshot shows the deployed web application from a desktop brows
 
 ![Full desktop view of web application.](./assets/Portfolio-Screenshot.png)
 
-## Deployment
 
-https://sunnyohk.github.io/sunny-ovson-portfolio/
 
 ## Known Bugs
 
