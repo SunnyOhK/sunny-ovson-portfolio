@@ -2,7 +2,7 @@
 
 ## Usage & Deployment
 
-https://sunny-ovson-portfolio.vercel.app/
+
 
 
 ## Description
