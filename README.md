@@ -2,7 +2,7 @@
 
 ## Usage & Deployment
 
-https://sunnyohk.github.io/sunny-ovson-portfolio/
+https://sunny-ovson-portfolio.vercel.app/
 
 
 ## Description
